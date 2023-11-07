@@ -154,7 +154,7 @@ h1{
 }
 .btn, .btn.btn-primary, .btn-continue-purchase {
   color: #fff;
-  display: inline-block;
+  display: flex;
   vertical-align: middle;
   background-color: #0054a8;
   border-color: #0054a8;
@@ -167,6 +167,9 @@ h1{
   transition-duration: .3s;
   transition-property: color,background-color;
   flex-wrap: nowrap;
-    align-content: space-between;
-    justify-content: center;
+  align-content: space-between;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
+
