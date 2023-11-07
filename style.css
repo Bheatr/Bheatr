@@ -149,3 +149,24 @@ h1{
 .body{
   align-items: flex-start;
 }
+.btn, .btn-continue-purchase, .btn.btn-primary {
+  border-radius: 20px;
+}
+.btn, .btn.btn-primary, .btn-continue-purchase {
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #0054a8;
+  border-color: #0054a8;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  transition-duration: .3s;
+  transition-property: color,background-color;
+  flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+}
